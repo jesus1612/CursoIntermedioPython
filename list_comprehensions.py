@@ -2,7 +2,8 @@ def main():
   squares = []
 
   for i in range(1,101):
-    squares.append(i*i);
+    if(i % 3 != 0 ):
+      squares.append(i**2)
 
   print(squares)
 
