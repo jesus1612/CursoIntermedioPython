@@ -20,7 +20,7 @@ def main():
   # squares = list(map(lambda x: x**2, range(1,6)))
   # print(squares)
 
-  # Filter
+  # reduce
   # El primer parametro es una función lambda que transformará nuestro input
   # Recibe una lista como segundo parametro y une todas según se necesite
   all_multiplied = reduce(lambda a,b: a * b, [2, 2, 2, 2, 2])
